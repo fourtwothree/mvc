@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li,h1,h2,p{margin:0; padding:0;}
+ul,li{list-style:none;}
+h1,h2{font-size:100%; font-weight:normal;}
+img{border:none;}
+
+body{background:url(images/main_bg.jpg) no-repeat center top #2e597b; font-size:12px; font-family:"微软雅黑", Verdana, Geneva, sans-serif;}
+
+#header,#banner,#content,#footer,#box{width:966px; margin:0 auto;}
+
+
+#header{position:relative; height:174px;}
+#logo{width:209px; height:44px; position:absolute; left:0; top:45px;}
+#logo img{display:block; width:209px; height:44px;}
+#twitter{width:160px; height:33px; position:absolute; right:0; top:45px; color:#fff; line-height:33px;}
+
+#nav{width:966px; height:52px; position:absolute; left:0; bottom:0; background:url(images/bg_menu.gif) repeat-x;}
+#nav li{float:left;}
+#nav li a{display:block; float:left; height:52px; line-height:52px; padding:0 50px; background:#000; text-decoration:none; color:#fff; font-size:14px; boder-right:1px solid #303030; border-left:1px solid #0a0a0a;}
+#nav li a:hover{background:url(images/hover.gif) repeat-x;}
+
+#box{background:#f2f3eb; overflow:hidden; padding-bottom:30px;}
+.info li{float:left; border-top:1px solid #e8e5dc; border-bottom:1px solid #e8e5dc;}
+.info li a,.info li a img{display:block; width:180px; height:122px;}
+.info li a{float:left; padding:12px;}
+.info li h2,.info li p{float:left; width:720px; padding:12px;}
+.info li h2{font-size:16px;}
+.info li p{font-size:14px;}
+.info li .moreInfo{height:12px;}
+
+
+#footer{height:100px; position:relative;}
+	#copyRight{position:absolute; right:0; top:30px; color:#fff;}
+	#copyRight a{color:#fff;}
